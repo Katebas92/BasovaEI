@@ -1,7 +1,7 @@
 def print_board(board):
     for row in board:
         print(" | ".join(row))
-        if row != board[-1]:
+        if row != board [-1] :
             print("---------")
 def check_winner(board, player):#Проверяет, выиграл ли игрок
     for row in board:
